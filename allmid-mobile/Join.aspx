@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Registration" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Join.aspx.cs" Inherits="allmid_mobile.Join" %>
+﻿<%@ Page Title="Register" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Join.aspx.cs" Inherits="allmid_mobile.Join" %>
 <asp:Content ContentPlaceHolderID="FeaturedContent" runat="server">
     <script type="text/javascript">
         window.onload = function () {
