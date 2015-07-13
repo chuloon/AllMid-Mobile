@@ -45,13 +45,21 @@
 
 </head>
 <body>
+    <div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <form id="Form1" runat="server">
-    <asp:ScriptManager ID="ScriptManager1" runat="server">
-        <Scripts>
-            <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=272931&clcid=0x409 --%>
-            <%--Framework Scripts--%>
-            
-            <asp:ScriptReference Name="MsAjaxBundle" />
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=272931&clcid=0x409 --%>
+                <%--Framework Scripts--%>
+
+                <asp:ScriptReference Name="MsAjaxBundle" />
             <asp:ScriptReference Name="jquery" />
             <asp:ScriptReference Name="jquery.ui.combined" />
             <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
@@ -131,6 +139,10 @@
                 <div class="float-left">
                     <p><a class="menu-a" href="~/">Home</a> | <a class="menu-a" href="/About">About</a> | <a class="menu-a" href="/Contact">Contact</a> | <a class="menu-a" href="/Join">Registration</a> | <a class="menu-a" href="/About#subscribe">Subscribe</a> | <a class="menu-a" href="/FAQ">FAQ</a></p>
                     <p>&copy; <%: DateTime.Now.Year %> - All Mid LLC</p>
+                    <a href="https://twitter.com/all_mid" class="twitter-follow-button" data-show-count="false">Follow @all_mid</a>
+<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                    <br />
+                    <div class="fb-like" data-href="https://www.facebook.com/pages/All-Mid-Collegiate-Invitational/443305555831514" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
                 </div>
             </div>
         </footer>

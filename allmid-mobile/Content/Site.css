@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+.padding-header {
+    padding-bottom: 20px;
+}
+
     a:link, a:visited,
     a:active, a:hover {
         color: #c64343;

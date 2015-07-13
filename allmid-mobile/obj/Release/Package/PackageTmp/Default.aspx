@@ -5,6 +5,7 @@
     <script type="text/javascript">
         window.onload = function () {
             $("#body").show();
+            $("#body1").show();
             $("#body2").show();
             $("#body3").show();
             $("#body4").show();
@@ -38,6 +39,10 @@
         </div>
     </section>
 </asp:Content>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <h2 class="padding-header center"><a href="Schedule">Check out the schedule here!</a></h2>
+</asp:Content>
+
 <asp:Content runat="server" ContentPlaceHolderID="BodyContent">
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us11.list-manage.com", "uuid": "7ebfc5e5db282fbb785936de0", "lid": "d33c1b30a5" }) })</script>
     <a name="compete"></a>
@@ -46,21 +51,21 @@
             <div class="prizes prize-third">
                 <h2>Join</h2>
                 <div class="prize-img">
-                    <img src="/Images/prize-third.png" />
+                    <a href="/Join"><img src="/Images/prize-third.png" /></a>
                 </div>
                 <p class="prizes-text">Create your own winning team, or join an existing one, then start practicing to mark your place as the best in the nation!<br /><a class="red-text" href="/Join">Register now</a></p>
             </div>
             <div class="prizes prize-second">
                 <h2>Compete</h2>
                 <div class="prize-img">
-                    <img src="/Images/prize-second.png" />
+                    <a href="/Rules"><img src="/Images/prize-second.png" /></a>
                 </div>
                 <p class="prizes-text">Join us in Cincinnati on October 3-4 to battle it out among the best of the best while exploring the rest of the countless festivities we have for you.<br /><a class="red-text" href="/Rules">Review rules</a></p>
             </div>
             <div class="prizes prize-first">
                 <h2>Win</h2>
                 <div class="prize-img">
-                    <img src="/Images/prize-first.png" />
+                    <a href="/Prizes"><img src="/Images/prize-first.png" /></a>
                 </div>
                 <p class="prizes-text">Once your team wins, bask in the glory of victory--but not without going home with an enormous prize pot and swag from our sponsors!<br /><a class="red-text" href="/Prizes">View prizes</a></p>
             </div>
