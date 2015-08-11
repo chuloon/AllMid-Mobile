@@ -61,16 +61,16 @@
             <p class="about-left text-field">Located in Cincinnati, OH, Chris created UCLoL – the first collegiate E-sports organization to be recognized as a club sport in the nation.  He has organized and executed everything from tournaments to professional fan meets and has 4 years experience in running gaming organizations.</p>
             <p>email: <a href="mailto:chris@allmid.gg">chris@allmid.gg</a></p>
     </div>
-        <div class="about-container center">
+        <!--<div class="about-container center">
             <img class="about-image" src="/Images/Face_Shots/ben.png" />
             <h3 class="about-left">Ben Ng</h3>
             <p class="about-left text-field">A graduate of Ohio State University, Ben is a professional web developer by day.  During his tenure as a student he ran BuckeyeLAN and has 4+ years experience in organizing and executing events.  Ben is also an avid cosplayer and has ties to multiple professional gaming organizations and companies.</p>
             <p>email: <a href="mailto:ben@allmid.gg">ben@allmid.gg</a></p>
-        </div>
+        </div>-->
         <div class="about-container center">
             <img class="about-image" src="/Images/Face_Shots/stelanie.png" />
             <h3 class="about-left">Stelanie Tsirlis</h3>
-            <p class="about-left text-field">A lover of creative people,celery, and cats, Stelanie brings together a passion for gaming and profound understanding of marketing. Serving as Miami University eSports Club's President, she plans and hosts multiple League, Hearthstone, Dota 2, and CS:GO events every year and has 4+ years of event planning under her belt.</p>
+            <p class="about-left text-field">A lover of creative people, celery, and cats, Stelanie brings together a passion for gaming and profound understanding of marketing. Serving as Miami University eSports Club's President, she plans and hosts multiple League, Hearthstone, Dota 2, and CS:GO events every year and has 4+ years of event planning under her belt.</p>
             <p>email: <a href="mailto:stelanie@allmid.gg">stelanie@allmid.gg</a></p>
         </div>
         <div class="about-container center">

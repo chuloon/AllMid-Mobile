@@ -11,7 +11,7 @@
         <h1><%: Title %>.</h1>
         <h2>Most of this is just common sense.</h2>
     </hgroup>
-    <article>
+    <article id="security">
     <ol>
         <li><p class="point-header">Hugs not Drugs</p>
                 <ul>

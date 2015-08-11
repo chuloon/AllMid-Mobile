@@ -2,7 +2,7 @@
 
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
 
-    <script type="text/javascript">
+    <script async type="text/javascript">
         window.onload = function () {
             $("#body").show();
             $("#body1").show();
@@ -12,7 +12,7 @@
             $("#body5").show();
         }
     </script>
-    <script>
+    <script async>
         $(document).ready(function () {
             $("#stream-thumb").on("click", function () {
                 var video = '<div class="video-container"><iframe src="' + $('#stream-thumb').attr('data-video') + '"  frameborder="0" scrolling="no" height="163" width="290"></iframe></div>';

@@ -73,10 +73,14 @@ h1 {
 
 h2 {
     font-size: 1.75em;
+    margin-top:0px;
+    padding-top: 20px;
 }
 
 h3 {
     font-size: 1.2em;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 h4 {
@@ -274,6 +278,8 @@ ul#menu {
             background: none;
             color: #999;
             text-decoration: none;
+            padding-left: 15px;
+            margin-bottom: 15px;
         }
 
         ul#menu li a:hover {
@@ -320,6 +326,10 @@ hgroup.title h2 {
     font-size:22px;
     margin-bottom:0px;
     font-weight:400;
+}
+
+#faq-summary p {
+    margin-bottom: 5px;
 }
 
 .faq-header {
@@ -555,7 +565,7 @@ fieldset {
         margin-right: 4px;
     }
 
-ul {
+#security ul {
     list-style: none;
     padding: 0;
 }
@@ -855,7 +865,8 @@ tr.pager td {
     }
 
         footer p {
-            margin: 0;
+            margin: 0 0 15px 0;
+
         }
 }
 /* END: Mobile Styles */
