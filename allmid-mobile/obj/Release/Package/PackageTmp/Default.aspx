@@ -40,6 +40,8 @@
     </section>
 </asp:Content>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <h2 class="center">October 3-4, 2015</h2>
+    <h2 class="center header-venue">Fifth Third Arena in the University of Cincinnati</h2>
     <h2 class="padding-header center"><a href="Schedule">Check out the schedule here!</a></h2>
 </asp:Content>
 

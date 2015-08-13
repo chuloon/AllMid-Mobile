@@ -14,6 +14,10 @@ body {
     padding: 0;
 }
 
+.header-venue {
+    padding-top: 0px;
+}
+
 .menu-a {
     color: #333 !important;
 }
