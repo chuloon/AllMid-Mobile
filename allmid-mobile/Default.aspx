@@ -51,21 +51,21 @@
     <div class="content-wrapper">
         <div class="wrap center">
             <div class="prizes prize-third">
-                <h2>Join</h2>
+                <h2>League</h2>
                 <div class="prize-img">
                     <a href="/Join"><img src="/Images/prize-third.png" /></a>
                 </div>
                 <p class="prizes-text">Create your own winning team, or join an existing one, then start practicing to mark your place as the best in the nation!<br /><a class="red-text" href="/Join">Register now</a></p>
             </div>
             <div class="prizes prize-second">
-                <h2>Compete</h2>
+                <h2>Smash</h2>
                 <div class="prize-img">
                     <a href="/Rules"><img src="/Images/prize-second.png" /></a>
                 </div>
                 <p class="prizes-text">Join us in Cincinnati on October 3-4 to battle it out among the best of the best while exploring the rest of the countless festivities we have for you.<br /><a class="red-text" href="/Rules">Review rules</a></p>
             </div>
             <div class="prizes prize-first">
-                <h2>Win</h2>
+                <h2>Hearthstone</h2>
                 <div class="prize-img">
                     <a href="/Prizes"><img src="/Images/prize-first.png" /></a>
                 </div>
