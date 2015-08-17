@@ -58,7 +58,6 @@
                                 </ul>
             </li>
         </ul>
-        </li>
         <li><p class="point-header">No Fighting IRL</p>
                 <ul>
                     <li><p class="point-sub">Policy Overview</p>

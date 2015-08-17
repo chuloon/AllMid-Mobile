@@ -197,7 +197,7 @@ footer {
 
 .prizes {
     display: inline-block;
-    width: 161px;
+    width: 100%;
 }
 
 .prize-img {
