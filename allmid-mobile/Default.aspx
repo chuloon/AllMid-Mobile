@@ -88,6 +88,9 @@
         <div class="sponsor-wrap">
             <a href="http://www.egfederation.com/summerseries/" target="_blank"><img src="/Images/logo-egf.png" /></a>
         </div>
+        <div class="sponsor-wrap">
+            <a href="http://trinityforcenetwork.com/" target="_blank"><img src="/Images/logo-tfn.png" /></a>
+        </div>
     </div>
 </asp:Content>
 <asp:Content ID="Content2" runat="server" ContentPlaceHolderID="BodyContent3">
