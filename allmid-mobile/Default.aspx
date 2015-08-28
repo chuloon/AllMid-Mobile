@@ -91,6 +91,12 @@
         <div class="sponsor-wrap">
             <a href="http://trinityforcenetwork.com/" target="_blank"><img src="/Images/logo-tfn.png" /></a>
         </div>
+        <div class="sponsor-wrap">
+            <a href="http://www.bearcastmedia.com/" target="_blank"><img src="/Images/logo-bearcast.png" /></a>
+        </div>
+        <div class="sponsor-wrap">
+            <a href="http://cech.uc.edu/it.html" target="_blank"><img src="/Images/logo-soit.png" /></a>
+        </div>
     </div>
 </asp:Content>
 <asp:Content ID="Content2" runat="server" ContentPlaceHolderID="BodyContent3">
