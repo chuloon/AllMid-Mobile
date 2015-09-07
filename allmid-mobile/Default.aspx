@@ -97,6 +97,9 @@
         <div class="sponsor-wrap">
             <a href="http://cech.uc.edu/it.html" target="_blank"><img src="/Images/logo-soit.png" /></a>
         </div>
+        <div class="sponsor-wrap">
+            <a href="http://www.reactivdesigns.com/" target="_blank"><img src="/Images/logo-reactiv.png" /></a>
+        </div>
     </div>
 </asp:Content>
 <asp:Content ID="Content2" runat="server" ContentPlaceHolderID="BodyContent3">
