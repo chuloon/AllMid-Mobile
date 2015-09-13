@@ -100,6 +100,12 @@
         <div class="sponsor-wrap">
             <a href="http://www.reactivdesigns.com/" target="_blank"><img src="/Images/logo-reactiv.png" /></a>
         </div>
+        <div class="sponsor-wrap">
+            <a href="http://www.libraries.uc.edu/services/student-technology-resources-center.html" target="_blank"><img src="/Images/logo-strc.png" /></a>
+        </div>
+        <div class="sponsor-wrap">
+            <a href="http://www.microsoftstore.com/cincinnati" target="_blank"><img src="/Images/logo-microsoft.png" /></a>
+        </div>
     </div>
 </asp:Content>
 <asp:Content ID="Content2" runat="server" ContentPlaceHolderID="BodyContent3">
